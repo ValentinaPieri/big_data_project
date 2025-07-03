@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="C:\Users\valen\Documents\uni\big_data\flight_analysis_project\src\main\scala\app\FlightDelayAnalysisApp.scala">
+  <error column="0" line="7" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="11" line="73" source="org.scalastyle.scalariform.LowercasePatternMatchChecker" severity="warning" message="Lowercase pattern match (surround with ``, or add : Any)"/>
+  <error column="11" line="74" source="org.scalastyle.scalariform.LowercasePatternMatchChecker" severity="warning" message="Lowercase pattern match (surround with ``, or add : Any)"/>
+  <error column="11" line="142" source="org.scalastyle.scalariform.LowercasePatternMatchChecker" severity="warning" message="Lowercase pattern match (surround with ``, or add : Any)"/>
+  <error column="11" line="143" source="org.scalastyle.scalariform.LowercasePatternMatchChecker" severity="warning" message="Lowercase pattern match (surround with ``, or add : Any)"/>
+ </file>
+ <file name="C:\Users\valen\Documents\uni\big_data\flight_analysis_project\src\main\scala\utils\Commons.scala">
+  <error column="4" line="32" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"/>
+  <error column="2" line="16" source="org.scalastyle.scalariform.UnderscoreImportChecker" severity="warning" message="Avoid wildcard imports"/>
+  <error column="2" line="16" source="org.scalastyle.scalariform.ImportGroupingChecker" severity="warning" message="Imports should be grouped together"/>
+ </file>
+ <file name="C:\Users\valen\Documents\uni\big_data\flight_analysis_project\src\main\scala\app\FlightDelayAnalysisParser.scala">
+  <error column="35" line="21" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="38" line="22" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="38" line="23" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="35" line="24" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="35" line="25" source="org.scalastyle.scalariform.MagicNumberChecker" severity="warning" message="Magic Number"/>
+  <error column="8" line="28" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
+ </file>
+</checkstyle>
